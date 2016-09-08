@@ -36,7 +36,7 @@ public class DeviceController {
         String hql = "from DeviceInfo where 1=1 ";
         List<Object> values = Lists.newArrayList();
         if (StringUtils.isNotEmpty(q)) {
-            hql += " and title like ? ";
+            hql += " and model like ? ";
             values.add("%" + q + "%");
         }
         return EasyuiPageBean.pageQuery(request, hDao, hql, values.toArray());

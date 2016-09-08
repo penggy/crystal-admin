@@ -43,8 +43,8 @@
 						<input type="hidden" name="id" value="">
 						<div class="form-group">
 							<label for="input-device-model" class="col-sm-3 control-label">
-								型号
 								<span class="text-red">*</span>
+								型号
 								:
 							</label>
 							<div class="col-sm-8">
