@@ -206,7 +206,7 @@
             });
             $(this).find("input:hidden[name=id]").val('');
         }).on("show.bs.modal", ".modal", function (e) {
-            $(this).find(".form-group").removeClass("has-error");
+            $(this).find(".form-group").removeClass("has-error").removeClass("has-success");
             $(this).find(".with-errors").empty();
         });
 
